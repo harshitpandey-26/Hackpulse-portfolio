@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(4,4,4.85);
+}
+
+.nav-container{
+    height: 700px;
+    width: 25%;
+    background: rgba(46, 43, 43,1);
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 170px 30px 20px 20px;
+    
+}
+
+.icon{
+    padding: 10px 10px 10px 10px;
+}
+
+.links{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#nav-name{
+    font-size: 35px;
+    color: rgba(217, 37, 81,1);
+    font-weight: bold;
+}
+
+#dot{
+    color: white;
+    font-weight: bold;
+}
+
+.links:hover{
+    color: rgba(217, 37, 81,1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+#nav-name:hover{
+    color: rgba(207, 97, 124, 0.644);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: -600px 0px 0px -195px;
+    color: white;
+}
+
+.photo{
+
+    height: 400px;
+    width: 200px;
+    background: lightgreen;
+    margin: -240px 0px 0px 1075px;
+    background-image: url("main.jpeg");
+    background-size: cover;
+    
+}
+
+.main-pic{
+    height: 100px;
+    width: 100px;
+}
+
+.job-role{
+    color: white;
+    font-size: 28px;
+    margin: 10px 10px 10px 390px;
+    font-size: 50px;
+}
+
+.para{
+    color: white;
+    font-size: 25px;
+    margin-left: 390px;
+    font-size: 20px;
+}
+
+.but-con{
+    /* margin: 10px 10px 10px 10px; */
+    margin-left: 390px;
+    padding-top: 20px;
+}
+
+
+
+.btn{
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background: rgb(7, 26, 255);
+    outline:none;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+
+.btn:hover{
+    background: rgba(217, 37, 81,1);
+    transition: .5s;
+}
+
+#harsh{
+    color: rgba(217, 37, 81,1);
+}
+
+.typedText{
+    color: rgba(217, 37, 81,1);
+}
+
+h1{
+    color: red;
+}
